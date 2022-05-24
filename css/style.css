@@ -95,6 +95,7 @@ main{
 
 /******* MAIN SECTIONS *******/
 /* First section - Features */
+/* Mobile First  */
 #features{
     padding: 20px 0 70px;
 }
@@ -154,4 +155,24 @@ main{
 #clean-code-box, #web-design-box,
 #development-box, #branding-box{
     text-align: center;
+}
+
+/* Tablet Responsive */
+@media all and (min-width: 768px){
+    .icon-box{
+        width: 30%;
+        padding: 30px 15px;
+    }
+
+    #demo{
+        width: 65%;
+    }
+
+    #features img {
+        width: 60%;
+    }
+
+    .apple-button{
+        width: 55%;
+    }
 }
