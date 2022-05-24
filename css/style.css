@@ -204,3 +204,52 @@ main{
 }
 /* End First Section - Features icon box */
 
+/* Second section - Planning */
+/* Mobile First  */
+#planning{
+    background-color: var(--purple);
+    padding: 70px 0;
+}
+
+#planning img{
+    width: 100%;
+}
+
+#planning .col-1{
+    color: white;
+}
+
+#planning .col-1 h3{
+    font-size: 29px;
+    margin: 60px 0 40px;
+}
+
+#planning .col-1 p{
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+#planning .col-2{
+    background-color: white;
+    padding: 30px 10px 70px;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.col-2 .title-card{
+    margin: 10px 0;
+    font-weight: 900;
+}
+
+.col-2 .text-card{
+    font-style: italic;
+}
+
+.col-2 .icon-card{
+    padding: 10px 14px;
+    background-color: var(--purple);
+    border-radius: 100%;
+    position: relative;
+    top: 34px;
+}
