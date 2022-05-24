@@ -253,3 +253,34 @@ main{
     position: relative;
     top: 34px;
 }
+
+/* Tablet Responsive */
+@media all and (min-width: 768px){
+    #planning .col-1 h3 {
+        font-size: 60px;
+        margin: 60px 0 40px;
+    }
+}
+
+/* Desktop Responsive */
+@media all and (min-width: 992px){
+    .flex-content{
+        display: flex;
+        gap: 50px;
+        align-self: flex-end;
+    }
+
+    #planning .col-1 h3 {
+        font-size: 29px;
+        margin: 60px 0 40px;
+    }
+
+    #planning .col-2 {
+        align-self: flex-end;
+    }
+
+    #planning img{
+        width: 85%;
+    }
+}
+/* End Second Section - Planning */
