@@ -284,3 +284,51 @@ main{
     }
 }
 /* End Second Section - Planning */
+
+/* Third section - Testimonials */
+/* Mobile First */
+#testimonials{
+    padding: 70px 0;
+    text-align: center;
+}
+
+h3.subtitle{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h2.title{
+    color: var(--purple);
+    font-size: 29px;
+    margin: 20px 0;
+}
+
+p.intro{
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.testimonial-box{
+    background-color: var(--purple);
+    padding: 30px 10px;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.testimonial-box .user{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial-box p{
+    line-height: 1.8;
+}
+
+.testimonial-box .name{
+    font-weight: 900;
+    margin-top: 20px;
+}
