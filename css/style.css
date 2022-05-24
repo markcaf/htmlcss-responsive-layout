@@ -3,4 +3,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
+
+/* Variabili globali */
+:root {
+    --blue-accent: #0084fd;
+    --blue-light: #b5ddff;
+    --purple: #9792e4;
+    --yellow-accent: #fdc15f;
+}
+
+
+/******** HEADER *******/
+/* Mobile First  */
+header{
+    width: 100%;
+    background-color: var(--blue-accent);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px 0;   
+}
+
+.nav-full{
+    display: none;
+}
+
+.hamburger{
+    color: white;
+    font-size: 20px;
+}
+
+/* Tablet Responsive */
+@media all and (min-width: 768px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+/* Desktop Responsive */
+@media all and (min-width: 992px){
+
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .nav-full{
+        display: inline-block;
+        color: white;
+    }
+
+    .nav-full ul{
+        list-style: none;
+    }
+
+    .nav-full ul li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .nav-full ul li:last-child{
+        color: black;
+        background-color: white;
+        padding: 5px 12px;
+        border-radius: 30px;
+    }
+}
+/******* END HEADER *******/
