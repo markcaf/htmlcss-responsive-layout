@@ -56,7 +56,6 @@ header{
 
 /* Desktop Responsive */
 @media all and (min-width: 992px){
-
     .container{
         width: 70%;
         margin: 0 auto;
@@ -176,3 +175,32 @@ main{
         width: 55%;
     }
 }
+
+/* Desktop Responsive */
+@media all and (min-width: 992px){
+    #demo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #features img {
+        width: 100%;
+        align-self: flex-end;
+        margin-bottom: -73px;
+    }
+
+    #features p{
+        font-size: 11px;
+    }
+
+    .icon-box{
+        padding: 10px 15px;
+    }
+
+    .apple-button{
+        width: 60%;
+    }
+}
+/* End First Section - Features icon box */
+
