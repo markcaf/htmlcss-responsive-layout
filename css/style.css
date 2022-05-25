@@ -409,7 +409,7 @@ p.intro{
         width: 47%;
     }
 
-    .flex-wrap {
+    #benefits .flex-wrap {
         gap: 40px;
     }
 }
@@ -422,3 +422,55 @@ p.intro{
     }
 }
 /* End Fourth Section - Benefits */
+
+/* Fifth section - About Us */
+#about-us{
+    padding: 70px 0;
+}
+
+#about-us .title{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--purple);
+    margin-bottom: 30px;
+}
+
+#about-us .text-content p{
+    line-height: 2;
+    font-weight: 400;
+}
+
+#about-us .text-content:first-child p{
+    margin-bottom: 40px;
+}
+
+.about-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.quote{
+    font-size: 70px;
+    position: absolute;
+    left: 190px;
+    color: var(--purple);
+}
+
+.text-quote{
+    font-size: 25px;
+    color: var(--purple);
+    line-height: 1.5;
+}
+
+#about-us .flex-content .quote-image .apple-button{
+        text-align: center;
+        background-color: var(--purple);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        margin: 30px 0;
+        width: 75%;
+}
