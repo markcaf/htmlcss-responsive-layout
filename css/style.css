@@ -413,3 +413,12 @@ p.intro{
         gap: 40px;
     }
 }
+
+/* Desktop Responsive */
+@media all and (min-width: 992px){
+    .number-card {
+        width: 29%;
+        flex-grow: 1;
+    }
+}
+/* End Fourth Section - Benefits */
