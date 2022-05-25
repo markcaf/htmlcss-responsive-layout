@@ -460,12 +460,12 @@ p.intro{
 }
 
 .text-quote{
-    font-size: 25px;
+    font-size: 24px;
     color: var(--purple);
     line-height: 1.5;
 }
 
-#about-us .flex-content .quote-image .apple-button{
+#about-us .quote-image .apple-button{
         text-align: center;
         background-color: var(--purple);
         color: white;
@@ -473,4 +473,23 @@ p.intro{
         border-radius: 20px;
         margin: 30px 0;
         width: 75%;
+}
+
+/* Tablet Responsive */
+@media all and (min-width: 768px){
+    .flex-quote{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .quote {
+        left: 680px;
+    }
+
+    #about-us .quote-image .apple-button{
+        font-size: 14px;
+        width: 92%;
+    }
 }
