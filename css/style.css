@@ -350,6 +350,55 @@ p.intro{
         text-align: left;
     }
 }
-
 /* Desktop Responsive - Inherit from Tablet */
 /* End Third Section - Testimonials */
+
+/* Fourth section - Benefits */
+/* Mobile First */
+#benefits{
+    background-color: var(--purple);
+    padding: 50px 0;
+}
+
+#benefits h2.title {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.number-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.number{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.benefit-type{
+    font-size: 25px;
+    color: var(--purple);
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.text-number-card{
+    color: #919191;
+    line-height: 1.5;
+}
+
+#benefits .button{
+    text-align: center;
+    background-color: var(--purple);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 65%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
