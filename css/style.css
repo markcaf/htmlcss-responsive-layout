@@ -402,3 +402,14 @@ p.intro{
     letter-spacing: 2px;
     font-weight: bold;
 }
+
+/* Tablet Responsive */
+@media all and (min-width: 768px){
+    .number-card{
+        width: 47%;
+    }
+
+    .flex-wrap {
+        gap: 40px;
+    }
+}
