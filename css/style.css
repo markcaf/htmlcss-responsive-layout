@@ -551,3 +551,23 @@ p.intro{
 .copyright a{
     color: white;
 }
+
+/* Tablet Responsive */
+@media all and (min-width: 768px){
+    .cta-text{
+        margin: 0 120px;
+    }
+
+    .cta{
+        font-size: 80px;
+    }
+
+    .intro{
+        font-size: 36px;
+    }
+
+    #cta .button{
+        width: 40%;
+        margin: 30px auto;
+    }
+}
