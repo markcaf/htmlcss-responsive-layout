@@ -22,6 +22,7 @@ header{
     background-color: var(--blue-accent);
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 .container{
@@ -493,3 +494,11 @@ p.intro{
         width: 92%;
     }
 }
+
+/* Desktop Responsive */
+@media all and (min-width: 992px){
+    .quote{
+        left: 825px;
+    }
+}
+/* End fifth section - About Us */
